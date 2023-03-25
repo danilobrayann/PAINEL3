@@ -85,3 +85,64 @@ ul li {
    right: 150px;
   
 }
+
+/* resposividade para mobile*/
+/* modificar toda estrtura adptavel para o mobile seja menu. corpo, corpo do texto tudo*/
+@media screen  and (max-width:900px){
+    
+    .menu{
+        display: block;
+        margin-top: 30px;
+        list-style: none;
+        width: auto;
+    }
+    .texto{
+        top: 0;
+        margin-top: 0px;
+        width: auto;
+    }
+
+    .container1{
+        margin-top: auto;
+        height: 2px;
+    }
+    h1 {
+        margin-left: 3px; 
+        font-size: 20px;
+        width: auto;
+        text-align: center;
+        margin-top: 2px;
+    }
+
+    p{
+      margin-left: 3px;
+        width: auto;
+        font-size: 15px;
+        text-align: center;
+        margin:15px 40px ;
+    }
+
+     ul li a {
+        display: none;
+    }
+    img{
+        position: static;
+        left: 40px;
+        width: 300px;
+        height: 300px;
+    }
+
+    button{
+font-size: 13px;
+align-items: center;
+text-align: center;
+ 
+}
+
+nav{
+   right: 0;
+   left: 0;
+}
+
+
+}
